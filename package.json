@@ -1,7 +1,7 @@
 {
-  "name": "use-animated-counter",
+  "name": "use-animated-number",
   "description": "A custom React hook for animating numbers in React.js applications.",
-  "version": "0.0.0",
+  "version": "0.0.1",
 
   "files": [
     "dist"
@@ -12,13 +12,13 @@
     "preview": "vite preview"
   },
   "type": "module",
-  "types": "./dist/use-animated-counter.d.ts",
-  "main": "./dist/use-animated-counter.umd.cjs",
-  "module": "./dist/use-animated-counter.js",
+  "types": "./dist/use-animated-number.d.ts",
+  "main": "./dist/use-animated-number.umd.cjs",
+  "module": "./dist/use-animated-number.js",
   "exports": {
     ".": {
-      "import": "./dist/use-animated-counter.js",
-      "require": "./dist/use-animated-counter.umd.cjs"
+      "import": "./dist/use-animated-number.js",
+      "require": "./dist/use-animated-number.umd.cjs"
     }
   },
   "devDependencies": {
