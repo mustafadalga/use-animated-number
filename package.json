@@ -1,0 +1,41 @@
+{
+  "name": "use-animated-counter",
+  "description": "A custom React hook for animating numbers in React.js applications.",
+  "version": "0.0.0",
+
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --declaration --emitDeclarationOnly",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "types": "./dist/use-animated-counter.d.ts",
+  "main": "./dist/use-animated-counter.umd.cjs",
+  "module": "./dist/use-animated-counter.js",
+  "exports": {
+    ".": {
+      "import": "./dist/use-animated-counter.js",
+      "require": "./dist/use-animated-counter.umd.cjs"
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.73",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafadalga/use-animated-number"
+  },
+  "author": "Mustafa Dalga",
+  "license": "GPL-3.0"
+}
