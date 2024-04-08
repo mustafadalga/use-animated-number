@@ -13,7 +13,7 @@ A custom React hook for animating numbers in React.js applications.
 You can install this plugin through npm:
 
 ```sh
-npm i use-animated-counter
+npm i use-animated-number
 ```
 
 ## Usage
