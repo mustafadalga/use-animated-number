@@ -1,7 +1,7 @@
 {
   "name": "use-animated-number",
   "description": "A custom React hook for animating numbers in React.js applications.",
-  "version": "0.0.4",
+  "version": "0.0.5",
 
   "files": [
     "dist"

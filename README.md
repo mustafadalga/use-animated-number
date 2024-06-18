@@ -27,8 +27,9 @@ import { useState } from "react";
 import useAnimatedNumber from "use-animated-number";
 
 export default function Header() {
+    const duration: number = 300;
     const [ balance, setBalance ] = useState<number>(0);
-    const animatedBalance: string = useAnimatedNumber(balance);
+    const animatedBalance: string = useAnimatedNumber(balance, duration);
 
     const increase = () => {
         const randomIncrement: number = Math.floor(Math.random() * 100) + 1;
@@ -43,7 +44,6 @@ export default function Header() {
     )
 }
 ```
-
 
 <br /> 
 
